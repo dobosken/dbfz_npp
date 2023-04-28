@@ -1,0 +1,64 @@
+<NotepadPlus>
+    <UserLang name="BBS_BRO" ext="bbs" udlVersion="2.1">
+        <Settings>
+            <Global caseIgnored="yes" allowFoldOfComments="no" foldCompact="yes" forcePureLC="0" decimalSeparator="2" />
+            <Prefix Keywords1="no" Keywords2="no" Keywords3="no" Keywords4="no" Keywords5="no" Keywords6="no" Keywords7="no" Keywords8="no" />
+        </Settings>
+        <KeywordLists>
+            <Keywords name="Comments">00// 01 02 03/* 04*/</Keywords>
+            <Keywords name="Numbers, prefix1">&apos;</Keywords>
+            <Keywords name="Numbers, prefix2"></Keywords>
+            <Keywords name="Numbers, extras1"></Keywords>
+            <Keywords name="Numbers, extras2"></Keywords>
+            <Keywords name="Numbers, suffix1">,</Keywords>
+            <Keywords name="Numbers, suffix2"></Keywords>
+            <Keywords name="Numbers, range"></Keywords>
+            <Keywords name="Operators1">( ) [ ]</Keywords>
+            <Keywords name="Operators2"></Keywords>
+            <Keywords name="Folders in code1, open">{</Keywords>
+            <Keywords name="Folders in code1, middle"></Keywords>
+            <Keywords name="Folders in code1, close">}</Keywords>
+            <Keywords name="Folders in code2, open"></Keywords>
+            <Keywords name="Folders in code2, middle"></Keywords>
+            <Keywords name="Folders in code2, close"></Keywords>
+            <Keywords name="Folders in comment, open"></Keywords>
+            <Keywords name="Folders in comment, middle"></Keywords>
+            <Keywords name="Folders in comment, close"></Keywords>
+            <Keywords name="Keywords1">beginState:&#x000D;&#x000A;endState:&#x000D;&#x000A;jumpToState:</Keywords>
+            <Keywords name="Keywords2">upon:&#x000D;&#x000A;endUpon:&#x000D;&#x000A;clearRegisteredUponCode:&#x000D;&#x000A;triggerUponInObject:</Keywords>
+            <Keywords name="Keywords3">gotoIfOperation:&#x000D;&#x000A;ifOperation:&#x000D;&#x000A;ifBeginNotCoType:&#x000D;&#x000A;if:&#x000D;&#x000A;ifNot:&#x000D;&#x000A;endIf:&#x000D;&#x000A;else:&#x000D;&#x000A;endElse:&#x000D;&#x000A;checkSignalName:&#x000D;&#x000A;checkCurrentStateName:&#x000D;&#x000A;ifPlayerCharacter: &#x000D;&#x000A;ifBeginAliveEnemyPlayer:&#x000D;&#x000A;ifOnFrame:&#x000D;&#x000A;checkLastStateName:&#x000D;&#x000A;checkInput:&#x000D;&#x000A;checkEnemyName:&#x000D;&#x000A;gotoIfTrue:</Keywords>
+            <Keywords name="Keywords4">storeValue:&#x000D;&#x000A;modifyVar:&#x000D;&#x000A;copyVar:</Keywords>
+            <Keywords name="Keywords5">beginLabel:&#x000D;&#x000A;endLabel:&#x000D;&#x000A;gotoLabel:&#x000D;&#x000A;jumpToLabel:&#x000D;&#x000A;jumpToStateInObject:&#x000D;&#x000A;skillBeginReWriteMode:&#x000D;&#x000A;callSubroutine:&#x000D;&#x000A;callSubroutineWithArgs:&#x000D;&#x000A;beginSubroutine:&#x000D;&#x000A;endSubroutine:</Keywords>
+            <Keywords name="Keywords6">sprite:&#x000D;&#x000A;spriteAddTime:&#x000D;&#x000A;spriteOverrideFrame:&#x000D;&#x000A;spriteOverrideTime:&#x000D;&#x000A;</Keywords>
+            <Keywords name="Keywords7">createObject:&#x000D;&#x000A;createParticle:&#x000D;&#x000A;exitState:&#x000D;&#x000A;deactivateObjectByName:&#x000D;&#x000A;createObjectWithArg:&#x000D;&#x000A;setObjectSize:&#x000D;&#x000A;linkParticle:&#x000D;&#x000A;exPointFReset:&#x000D;&#x000A;setLinkParticleNotStop:&#x000D;&#x000A;requestDestroy:&#x000D;&#x000A;putObjectIntoStack:&#x000D;&#x000A;applyTo:&#x000D;&#x000A;endApply:&#x000D;&#x000A;sendSignalName:&#x000D;&#x000A;sendSignal:</Keywords>
+            <Keywords name="Keywords8">enableHitbox:&#x000D;&#x000A;disableHitbox:&#x000D;&#x000A;recoveryState:&#x000D;&#x000A;addMove:&#x000D;&#x000A;endMove:&#x000D;&#x000A;registerMove:&#x000D;&#x000A;initializeForEntryAction:&#x000D;&#x000A;initializeForAssistAttackAction:&#x000D;&#x000A;initializeForLockExe:&#x000D;&#x000A;playerActionInitializeByCategory:&#x000D;&#x000A;overdriveAttack:&#x000D;&#x000A;specialAttack: &#x000D;&#x000A;normalAttack:</Keywords>
+            <Keywords name="Delimiters">00( 01 02) 03&apos; 04 05&apos; 06 07 08 09 10 11 12 13 14 15 16 17 18 19 20 21 22 23</Keywords>
+        </KeywordLists>
+        <Styles>
+            <WordsStyle name="DEFAULT" fgColor="C0C0C0" bgColor="FFFFFF" colorStyle="1" fontStyle="0" nesting="0" />
+            <WordsStyle name="COMMENTS" fgColor="E4E4E4" bgColor="444444" fontStyle="0" nesting="0" />
+            <WordsStyle name="LINE COMMENTS" fgColor="D9D9D9" bgColor="595959" fontStyle="0" nesting="0" />
+            <WordsStyle name="NUMBERS" fgColor="FF8000" bgColor="FFFFFF" colorStyle="1" fontStyle="0" nesting="0" />
+            <WordsStyle name="KEYWORDS1" fgColor="FFFFFF" bgColor="494949" fontStyle="0" nesting="0" />
+            <WordsStyle name="KEYWORDS2" fgColor="46FAA8" bgColor="C8A8CB" colorStyle="1" fontStyle="0" nesting="0" />
+            <WordsStyle name="KEYWORDS3" fgColor="F7F786" bgColor="FFFFFF" colorStyle="1" fontStyle="0" nesting="0" />
+            <WordsStyle name="KEYWORDS4" fgColor="FF80FF" bgColor="FFFFFF" colorStyle="1" fontStyle="0" nesting="0" />
+            <WordsStyle name="KEYWORDS5" fgColor="FF713B" bgColor="FFFFFF" colorStyle="1" fontStyle="0" nesting="0" />
+            <WordsStyle name="KEYWORDS6" fgColor="8CE1FA" bgColor="FFFFFF" colorStyle="1" fontStyle="1" nesting="0" />
+            <WordsStyle name="KEYWORDS7" fgColor="B871FF" bgColor="FFFFFF" colorStyle="1" fontStyle="0" nesting="0" />
+            <WordsStyle name="KEYWORDS8" fgColor="FFBC79" bgColor="FFFFFF" colorStyle="1" fontStyle="0" nesting="0" />
+            <WordsStyle name="OPERATORS" fgColor="FF8000" bgColor="FFFFFF" colorStyle="1" fontName="Roboto Bk" fontStyle="1" nesting="0" />
+            <WordsStyle name="FOLDER IN CODE1" fgColor="FFFFFF" bgColor="FFFFFF" colorStyle="1" fontStyle="1" nesting="0" />
+            <WordsStyle name="FOLDER IN CODE2" fgColor="FAB785" bgColor="FFFFFF" colorStyle="1" fontStyle="0" nesting="0" />
+            <WordsStyle name="FOLDER IN COMMENT" fgColor="000000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS1" fgColor="E29C5C" bgColor="FFFFFF" colorStyle="1" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS2" fgColor="68BDD9" bgColor="FFFFFF" colorStyle="1" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS3" fgColor="000000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS4" fgColor="000000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS5" fgColor="000000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS6" fgColor="000000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS7" fgColor="000000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS8" fgColor="000000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+        </Styles>
+    </UserLang>
+</NotepadPlus>

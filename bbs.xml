@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- ==========================================================================\
+|
+|   To learn how to make your own language parser, please check the following
+|   link:
+|       https://npp-user-manual.org/docs/function-list/
+|
+\=========================================================================== -->
+<NotepadPlus>
+	<functionList>
+		<!-- ================================ [ Batch / Command Shell Script ] -->
+
+		<parser
+			displayName="Arcsys BBS"
+			id         ="bbs_label"
+			commentExpr="(?s:\x2F\x2A.*?\x2A\x2F)"
+		>
+			<function
+				mainExpr="((?m-s)^beginState: (.*))|((?m-s)^beginSubroutine: (.*))"
+			/>
+		</parser>
+	</functionList>
+</NotepadPlus>
