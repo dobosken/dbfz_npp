@@ -1,5 +1,7 @@
 # DBFZ BBS stuff for Notepad++
 
+![preview](preview.png)
+
 ## BBS_BRO.xml
 
 Custom syntax highlighting for dark n++ themes. Specifically for my [dbfz.ron](https://github.com/dobosken/bbscript)
